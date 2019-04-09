@@ -1,0 +1,271 @@
+/*Paleta de colores 
+Azul oscuro : #13334E;
+Azul claro: #3377AB;
+Azul turquesa #39B7FF
+Gris :#707070;
+
+Back ground transparente 
+RGBA:(48, 48, 48, 0.5);
+
+*/
+
+
+html{
+	position: absolute;
+
+}
+
+
+/*Navigation*/
+
+#bg:{
+	background-color: #13334E !important; 
+}
+
+.logoH{
+	max-height: 60px;
+	padding: 0;
+	margin: 0;
+
+
+}
+.navbar{
+	padding:-0rem 0rem;
+}
+
+.nav-link:hover{
+	color: #39B7FF!important;
+}
+
+
+a{
+	color: white;
+}
+
+
+/*Home section*/
+#homeId{
+	height: 500px;
+	display: flex;
+	align-items: center;
+
+}
+
+
+#back{
+	background-image: url('../Image/courtM.jpg');
+	width: 100%;
+	height: 93vh;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+
+.display-4{
+	color: #13334E;
+	text-shadow: 1;
+}
+.lead_1{
+	text-align: justify;
+	color:white;
+}
+.btn-color{
+	background-color: #13334E;
+	border-color:#13334E;
+	color:white;
+
+}
+
+
+/*ABOUT US*/
+
+#About{
+	width: 100%;
+	height: auto;
+}
+
+/* services start*/
+
+#Topbox{
+	height: 260px;
+	width:150 ;
+	background-color: #3377AB;
+}
+
+#Topbox1{
+	height: 260px;
+	width:150 ;
+	background-color:#707070;
+}
+
+.serviceSection{
+	background-color: #13334E !important;
+}
+
+.container-services{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 10px;
+	padding-left: 10px; 
+}
+
+
+.imgclass{
+	height: 70px;
+	width: 50px;
+
+}
+
+.servicesh{
+	color: Black;
+	font-family: 'Lato', sans-serif !important; 
+	padding-top: 25px;
+}
+
+
+/*Testimonies section*/
+
+#carousel-testimonies{
+	
+	background-color: #fff;
+	padding-top:5px ;
+	padding-bottom:25px ;
+	display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 360px;
+    width: 100%;
+
+}
+.border-c{
+	border: solid #f7f7f9;
+	border-width: .2rem;
+	margin: 1rem -15px 1rem;
+	padding:1.5rem;
+
+}
+
+
+/*adaptacion de carousel*/
+.carousel-inner > .item > img {
+  object-fit: scale-down;
+  height: 80vh;
+  width: 100%;
+}
+
+
+#tx-color{
+	color: White;
+	text-shadow: 5px 5px 10px rgba(0,0,0,.5);
+}
+
+/*Text space start*/
+
+#text-space{
+	background-color: #707070;
+	width: 100%;
+	height: 300px;	
+	color: white;
+	display: flex;
+    align-items: center;
+
+}
+
+.spacetext-content{
+	height: 50%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+
+/*Contact us */
+.contact-space{
+	background-color:white;
+	padding-bottom: 250px 
+}
+
+
+#hdisplay{
+	color: #13334E;
+}
+
+ul,li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 8px;
+}
+.list-group-flush{
+	border: none;
+}
+
+.fab.fa-facebook{
+	color: #13334E;
+}
+
+
+.fab.fa-instagram{
+	color:#13334E;
+}
+
+
+
+#map-contact{
+	padding-bottom: 4px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+
+/*Footer*/
+
+#footerM{
+	height:45px;
+	background-color: black;
+	color: #ccc;
+	padding: 12px 0px 12px 0px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	position:relative;
+}
+
+.backButton{
+
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	width: 35px;
+    height: 36px;
+    border-radius: 48%;
+	cursor: pointer;	
+	background: rgba(0, 0, 0, 0.3);
+	display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+
+
+
+#back-button{
+	display: none;
+	padding: 10px;
+	font-size: 200;	
+
+	
+}
+
+
+.fas.fa-angle-double-up{
+	color: white;
+
+}
+
+
+
+
